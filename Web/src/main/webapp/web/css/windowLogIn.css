@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+.windowLogIn {
+	background: #fefcea;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	padding: 35px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border: 0px solid #19587F;
+	border-style: outset;
+	border-radius: 15px;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family: Ariel;
+	letter-spacing: 1px; font-size : 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 501;
+	display: none;
+	font-size: 15px;
+	max-width: 154px;
+}
+
+.errorLogin {
+	margin: 5px;
+	height: 16px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.logInButton, .signUpButton,.closeMessage,.printCheck{
+	background-color: #1485CC;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	border-radius: 9px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+	color: #000000;
+}
+
+.printCheck:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	cursor: pointer;
+}
+
+.logInButton:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	cursor: pointer;
+}
+
+.loginLogIn, .passLogIn {
+	text-align: center;
+	border: 0px solid #19587F;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	background: #ffffff !important;
+	outline: none;
+	height: 18px;
+	width: 150px;
+	font-size: 14px;
+}
+
+.loginLogIn:focus {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.passLogIn:focus {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.closeWindowLogin {
+	position: absolute;
+	top: 22px;
+	right: 15px;
+	transform: translate(20%, -50%);
+	font-size: 20px;
+}
+
+.closeWindowLogin:hover {
+	cursor: pointer;
+}
+
+.showWindowSignUp {
+	font-weight: 700;
+	color: #ffffff;
+}

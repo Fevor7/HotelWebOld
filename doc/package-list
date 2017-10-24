@@ -1,0 +1,12 @@
+by.htp.itacademy.hotel.bean.entity
+by.htp.itacademy.hotel.bean.vo
+by.htp.itacademy.hotel.command
+by.htp.itacademy.hotel.command.impl
+by.htp.itacademy.hotel.dao
+by.htp.itacademy.hotel.dao.impl
+by.htp.itacademy.hotel.filter
+by.htp.itacademy.hotel.mytag
+by.htp.itacademy.hotel.service
+by.htp.itacademy.hotel.service.impl
+by.htp.itacademy.hotel.servlet
+by.htp.itacademy.hotel.util

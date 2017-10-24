@@ -1,0 +1,76 @@
+.banner {
+	display: inline-block;
+	position: absolute;
+    right: 15px;
+    left: 255px;
+}
+
+
+#slider-wrap {
+	width: 714px;
+	margin: 15px;
+}
+
+#slider {
+	width: 714px;
+	height: 469px;
+	overflow: hidden;
+	border: #eee solid 10px;
+	position: relative;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+}
+
+.sli-links {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.sli-links .control-slide {
+	margin: 2px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../images/radioBg.png) center bottom no-repeat;
+}
+
+.sli-links .control-slide:hover {
+	cursor: pointer;
+	background-position: center center;
+}
+
+.sli-links .control-slide.active {
+	background-position: center top;
+}
+
+#prewbutton, #nextbutton {
+	display: block;
+	width: 15px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	text-indent: -999px;
+	background: url(../images/arrowBg.png) left center no-repeat;
+	opacity: 0.8;
+	z-index: 700;
+	outline: none !important;
+}
+
+#prewbutton {
+	left: 10px;
+}
+
+#nextbutton {
+	right: 10px;
+	background: url(../images/arrowBg.png) right center no-repeat;
+}
+
+#prewbutton:hover, #nextbutton:hover {
+	opacity: 1;
+}

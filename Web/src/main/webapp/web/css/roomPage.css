@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.filterRoom {
+	background: #fefcea;
+	background: linear-gradient(to bottom, #004E7F, #32B0FF);
+	padding: 15px;
+	padding-top: 0;
+	border: 0px solid #19587F;
+	border-style: outset;
+	border-radius: 15px;
+	font-family: Ariel;
+	letter-spacing: 1px;
+	font-size: 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 501;
+	width: 195px;
+	top: 15px;
+	left: 5px;
+	margin: 15px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+
+.windowRoom {
+	background-color: #FFFFFF;
+	box-shadow: 0 0 5px rgba(167, 207, 223, 0.7);
+	width: 160px;
+	height: 200px;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px;
+	position: relative;
+}
+
+.windowRoom:hover {
+	box-shadow: 0 0 12px rgba(167, 207, 223, 0.9);
+	cursor: pointer;
+}
+
+.selectRoomButton {
+	background-color: #1485CC;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	border-radius: 9px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+	color: #000000;
+}
+
+.windowRoom .selectRoomButton {
+	display: none;
+	font-size: 20px;
+	opacity: 0.95;
+	border-radius: 15px;
+}
+
+.windowRoom:hover .selectRoomButton {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(20%, -50%);
+}
+
+.insertRoomList {
+	position: absolute;
+	left: 260px;
+	top: 5px;
+}
+
+.titleRoom {
+	color: #002F4C;
+	font-weight: 700;
+}
+
+.titleRoomPrice {
+	font-weight: 700;
+	color: #a40000;
+}

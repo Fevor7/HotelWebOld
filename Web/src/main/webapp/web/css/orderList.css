@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+.editOrderButton {
+	background-color: #1485CC;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	border: 0px;
+	font-size: 15px;
+	color: #ffffff;
+	visibility: hidden;
+	padding: 5px;
+}
+
+.windowEditOrderAdmin {
+	background: #fefcea;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	padding: 35px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border: 0px solid #19587F;
+	border-style: outset;
+	border-radius: 15px;
+	position: fixed;
+	top: 125px;
+	right: 10px;
+	font-family: Ariel;
+	letter-spacing: 1px;
+	font-size: 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 501;
+	font-size: 15px;
+	width: 170px;
+}
+
+.userIdEditOrder {
+	width: 40px;
+}
+
+.editOrderAdminButton {
+	background-color: #1485CC;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	border-radius: 9px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+	color: #000000;
+	display: none;
+}
+
+.editOrderAdminButton:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	cursor: pointer;
+}
+.chooseTheRoomButton:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	cursor: pointer;
+}
+
+.insertChooseTypeOrder {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 260px;
+}
+
+.userIdEditOrder {
+	font-weight: bold;
+	font-size: 17px;
+}

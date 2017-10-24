@@ -1,0 +1,110 @@
+.menu {
+	z-index: 500;
+	font-family: Tahoma;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background: rgb(167, 207, 223);
+	background: -moz-linear-gradient(top, rgba(167, 207, 223, 1) 0%,
+		rgba(35, 83, 138, 1) 100%);
+	background: -webkit-linear-gradient(top, rgba(167, 207, 223, 1) 0%,
+		rgba(35, 83, 138, 1) 100%);
+	background: linear-gradient(to bottom, rgba(167, 207, 223, 1) 0%,
+		rgba(35, 83, 138, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf',
+		endColorstr='#23538a', GradientType=0);
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.menuPart1 {
+	float: left;
+}
+
+.menuPart2 {
+	float: right;
+}
+
+.menuStyle * {
+	margin: 0;
+	padding: 0;
+}
+
+.menuStyle ul, .menuStyle ol {
+	list-style: none;
+}
+
+.menuStyle>ul {
+	display: flex;
+	justify-content: start;
+}
+
+.menuStyle>ul li {
+	position: relative;
+	border-right: 1px solid #002F4C;
+}
+
+.menuStyle>ul li:first-child {
+	border-left: 1px solid #002F4C;
+}
+
+.menuStyle>ul li:last-child {
+	border-right: 1px solid #002F4C;
+}
+
+.menuStyle>ul li>a i.fa {
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	font-size: 18px;
+}
+
+.menuStyle>ul li a {
+	display: block;
+	padding: 6px 25px 6px 25px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #002F4C;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.menuStyle li a:hover {
+	background-color: #0F6498;
+	color: #ffffff;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+
+.menuStyle li ul {
+	position: absolute;
+	min-width: 150px;
+	display: none;
+}
+
+.menuStyle li>ul li {
+	border: 1px solid #002F4C;
+}
+
+.menuStyle li>ul li a {
+	padding: 10px;
+	text-transform: none;
+	background: #e4e4e5;
+	text-transform: uppercase;
+}
+
+.menuStyle li>ul li ul {
+	position: absolute;
+	right: -150px;
+	top: 0;
+}
+
+.menuStyle li:hover>ul {
+	display: block;
+}

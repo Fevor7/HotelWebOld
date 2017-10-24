@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+.windowSignUp {
+	background: #fefcea;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	padding: 35px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border: 0px solid #19587F;
+	border-style: outset;
+	border-radius: 15px;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family: Tahoma;
+	font-size: 16px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 501;
+	display: none;
+	max-width: 258px;
+	max-height: 360px;
+	vertical-align: top;
+}
+
+.signUpPart1,.signUpPart2{
+	padding-right: 5px;
+	float: left;
+}
+
+
+.signUpPart1 {
+	text-align: right;
+}
+				
+.nameInputReg, .surnameInputReg, .emailInputReg, .loginInputReg, .passInputReg,
+	.repassInputReg {
+	text-align: center;
+	border: 0px solid #19587F;
+	border-radius: 1px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	background: #ffffff !important;
+	outline: none;
+	height: 14px;
+	width: 140px;
+	font-size: 12px;
+}
+
+.nameInputReg:focus {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.surnameInputReg:focus {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.emailInputReg:focus {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.loginInputReg:focus {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.passInputReg:focus {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.repassInputReg:focus {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.signUpButton:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	cursor: pointer;
+}
+.closeWindowSignUp {
+	position: absolute;
+	top: 22px;
+	right: 15px;
+	transform: translate(20%, -50%);
+	font-size: 20px;
+}
+
+.closeWindowSignUp:hover {
+	cursor: pointer;
+}
+
+.errorSignUp {
+	height: 14px;
+	font-size: 14px;
+	color: #ffffff;
+	
+}
+

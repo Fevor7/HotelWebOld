@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+select, .typeRoom {
+	text-align-last: center;
+	text-align: center;
+}
+
+body {
+	background-color: #002F4C;
+	overflow-y: scroll;
+	margin: 0;
+}
+
+header {
+	z-index: 500;
+	width: 100%;
+	height: 90px;
+	background: #FFFFFF url(../images/header.jpg) no-repeat center center;
+}
+
+header:hover {
+	cursor: pointer;
+}
+
+.exit {
+	display: none;
+}
+
+.admin {
+	display: none;
+}
+
+.windowMessage {
+	background-color: #FFFFFF;
+	box-shadow: 0 0 50px rgba(140, 14, 14, 1.2);
+	padding: 25px;
+	border-radius: 15px;
+	margin: 10px;
+	position: relative;
+	z-index: 700;
+	display: none;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.insertPage {
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	width: 100%;
+	z-index: 400;
+	min-width: 1040px;
+}
+
+.paging {
+	color: white;
+	font-weight: 900;
+}
+
+.pagingOrder {
+	color: #002F4C;
+	font-weight: 900;
+}
+
+.pagingOrder A:visited {
+	color: #002F4C;
+	font-weight: 900;
+}
+
+A:active {
+	color: #ffff00;
+	font-weight: 900;
+}
+
+.paging A:visited {
+	color: #ffffff;
+	font-weight: 900;
+}
+
+.language {
+	position: fixed;
+	top: 0px;
+	right: 20%;
+	z-index: 700;
+}
+
+.lang:hover {
+	cursor: pointer;
+}

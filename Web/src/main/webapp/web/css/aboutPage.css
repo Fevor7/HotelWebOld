@@ -1,0 +1,32 @@
+.aboutPage {
+	background-color: #FFFFFF;
+	box-shadow: 0 0 5px rgba(167, 207, 223, 0.7);
+	width: 100% display: inline-block;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 10px;
+	letter-spacing: 1px;
+}
+
+hr {
+	border: none;
+	background-color: #002F4C;
+	color: #002F4C;
+	height: 1px;
+	width: 500px;
+}
+
+.location {
+	box-shadow: 0 0 15px rgba(187, 187, 187, 0.9);
+}
+
+P {
+	text-indent: 1.5em;
+	text-align: justify;
+}
+
+.checkMark {
+	color: green;
+	font-weight: 900;
+	font-size: 20px;
+}

@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+.clientOrder{
+	background: #fefcea;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	padding: 30px;
+	padding-top:0;
+	border: 0px solid #19587F;
+	border-style: outset;
+	border-radius: 15px;
+	font-family: Ariel;
+	letter-spacing: 1px; 
+	font-size : 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	z-index: 501;
+	width: 180px;
+	margin: 15px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sendApplocationButton{
+	background-color: #1485CC;
+	background: linear-gradient(to bottom, #32B0FF, #004E7F);
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	border-radius: 9px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+	color: #000000;
+}
+.sendApplocationButton:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	cursor: pointer;
+}
+
+.errorOrder {
+	height: 14px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	
+}
